@@ -1,0 +1,121 @@
+html {
+    background: #27292d;
+}
+
+.header {
+    height: 70px;
+    background: #1f2023;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20%;
+    align-items: center;
+}
+
+.header a {
+    color: #53555b;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header p {
+    color: #d2d2d2;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.addCard i {
+    font-size: 80px;
+    color: rgb(204, 87, 87);
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.name p {
+    margin: 10px;
+}
+
+.name p, .name i {
+    color: #53555b;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 400px;
+    background: #1f2023;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 22% !important;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #27292d;
+    padding: 10px 20px;
+    align-items: center;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.uiElements {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.message {
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    background: #27292d;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 100px;
+
+}
+
+.message p {
+    color: #d2d2d2;
+}
+
+.card p {
+    color: #d2d2d2;
+    line-height: 0px;
+}
+
+span {
+    color: rgb(204, 87, 87) !important;
+}
+
+@media (min-width: 1000px) {
+    .formContainer {
+        width: 60%;
+        margin-left: 20%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    label {
+        font-size: 14px !important;
+        line-height: 10px !important;
+    }
+}
